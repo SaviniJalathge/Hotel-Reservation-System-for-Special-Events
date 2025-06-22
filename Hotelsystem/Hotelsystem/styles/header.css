@@ -1,0 +1,85 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color:  rgb(229, 225, 234);
+}
+
+/* main header */
+
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background:linear-gradient(rgba(177, 246, 183, 0.651), rgb(35, 180, 50)) ;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 10vh;
+}
+.header img{
+    width: 20%;
+    height: 10%;
+}
+
+.header h1{
+    font-size: 48px;
+    padding-right: 30%;
+    color: #fff;
+}
+
+.header a{
+padding-right: 60px;
+text-decoration: none;
+color: white;
+font-size: 20px;
+font-weight: bold;
+}
+
+.header a:hover{
+color: rgb(0, 0, 0);
+}
+
+/* sub header */
+
+.sub_header{
+background-color: rgb(35, 180, 50);
+height: 10vh;
+display: flex;
+align-items: center;
+}
+
+.sub_header ul{
+display: flex;
+list-style: none;
+
+}
+
+.sub_header ul li{
+list-style: none;
+}
+
+.sub_header a{   
+font-size: 18px; 
+color: #fff;
+text-decoration: none;
+margin-left: 45px ;
+letter-spacing: 0.012em;
+padding: 15px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.sub_header a:hover{ 
+background-color:rgb(229, 225, 234);
+color: black;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+} 
+
+
+.sign a:hover{
+background-color:rgb(229, 225, 234);
+color: black;
+border-radius: 10px;
+}

@@ -1,0 +1,109 @@
+body{
+    font-family:'Arial', sans-serif;
+    background-color: rgba(188, 255, 226, 0.726);
+}
+
+
+
+    
+.form{
+    width: 100%;
+    margin: 0;
+    background-color:rgba(107, 136, 121, 0.511);
+    box-sizing: border-box;
+    padding:30px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    transition-duration: 2s ;
+
+}
+    
+
+.form:hover{
+    background-color:rgba(85, 105, 95, 0.662);
+    transition-duration: 1s ;
+    color: black;
+}
+    
+.login-section {
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+        height:100vh;
+        background-position: center;
+        background-size: cover;
+        position:relative;
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+    
+.login-button {
+    width: 100%;
+    color: white;
+    background-color: #1e2e1e;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-top: 30px;
+
+    
+    }
+    
+.login-button:hover {
+    opacity: 0.82;
+    }
+
+.additional-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    }
+    
+.additional-options a {
+    color: #333;
+    text-decoration: none;
+    }
+    
+.additional-options a:hover {
+    text-decoration: underline;
+    }
+    
+.form-box p {
+    text-align: center;
+    margin-top: 20px;
+    }
+    
+.form-box p a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+.form-box p a:hover {
+    text-decoration: underline;
+    }
+
+.login-title {
+    text-align: center;
+}
